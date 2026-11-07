@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1b263b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #00b4d8;
+}
+
+section {
+    background-color: white;
+    margin: 25px auto;
+    padding: 25px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #cccccc;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    border: 3px solid #1b263b;
+    object-fit: cover;
+    height: 200px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #1b263b;
+    color: white;
+}
+
+a {
+    color: #0077b6;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    background-color: #1b263b;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0077b6;
+}
+
+footer {
+    background-color: #1b263b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
